@@ -1,0 +1,21 @@
+name: "Lịch Âm Dương"
+version: "1.4.1"
+slug: "lichamduong"
+description: "Lịch âm dương Việt Nam, nhắc nhở theo ngày/tháng âm lịch, đồng bộ mọi thiết bị"
+url: "https://lich.tnthanhlan.trade"
+arch:
+  - amd64
+startup: application
+boot: auto
+init: false
+ports:
+  8099/tcp: 8099
+ports_description:
+  8099/tcp: "Giao diện web Lịch Âm Dương"
+webui: "http://[HOST]:[PORT:8099]/"
+map:
+  - "data:rw"
+options:
+  cloudflare_tunnel_token: ""
+schema:
+  cloudflare_tunnel_token: "str?"

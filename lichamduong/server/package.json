@@ -1,0 +1,12 @@
+{
+  "name": "lichamduong-server",
+  "version": "1.0.0",
+  "description": "Server đồng bộ nhắc nhở lịch âm dương cho mọi thiết bị",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
